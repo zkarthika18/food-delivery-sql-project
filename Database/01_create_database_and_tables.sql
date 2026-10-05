@@ -2,9 +2,11 @@
 ----------------------------------------------------------
        --FoodDeliveryDB-- DB and Table Creation
 ----------------------------------------------------------
-
+GO
 CREATE DATABASE FoodDeliveryDB;
+GO
 USE FoodDeliveryDB;
+GO
 
 CREATE TABLE CUSTOMERS(
 	Customer_id INT IDENTITY(1,1) PRIMARY KEY,
